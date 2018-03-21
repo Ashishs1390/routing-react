@@ -1,11 +1,9 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import { hello , goodbye } from './lib'
-
+import Root from './Root'
 ReactDOM.render(
 	<div>
-		{hello}
-		{goodbye}
+		<Root/>
 	</div>,
 	document.getElementById('react-container')
 
