@@ -1,6 +1,5 @@
 import React from "React";
 
-
 class About extends React.Component {
 	render() {
 		return (
